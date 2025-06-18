@@ -960,6 +960,9 @@ input::placeholder {
   .form-footer {
     gap: 24px;
   }
+  .footer-text-media {
+    text-align: start;
+  }
   /* MODAL */
   .modal {
     width: 408px;
@@ -998,9 +1001,6 @@ input::placeholder {
     letter-spacing: 0.02em;
   }
   /* MAINE */
-  .main {
-    max-width: 1440px;
-  }
   .main-title {
     padding-top: 188px;
     padding-bottom: 188px;
@@ -1092,10 +1092,10 @@ input::placeholder {
     gap: 0;
   }
   .footer-logo-text {
-    padding-right: 120px;
+    margin-right: 120px;
   }
   .container-icons {
-    padding-right: 80px;
+    margin-right: 80px;
   }
   .modal-input:focus {
     border-color: #4d5ae5;
